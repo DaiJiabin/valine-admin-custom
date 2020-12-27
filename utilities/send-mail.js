@@ -57,7 +57,7 @@ exports.notice = (comment) => {
   const main_color = process.env.MAIN_COLOR ? process.env.MAIN_COLOR : "orange";
   const main_img = process.env.MAIN_IMG
     ? process.env.MAIN_IMG
-    : "https://cdn.jsdelivr.net/gh/w4j1e/blog@master/img/bg.jpg";
+    : "https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/background/saber1.jpg";
 
   if (!process.env.DISABLE_EMAIL) {
     const emailSubject =
@@ -193,7 +193,7 @@ exports.send = (currentComment, parentComment) => {
   const main_color = process.env.MAIN_COLOR ? process.env.MAIN_COLOR : "orange";
   const main_img = process.env.MAIN_IMG
     ? process.env.MAIN_IMG
-    : "https://cdn.jsdelivr.net/gh/w4j1e/blog@master/img/w4.jpg";
+    : "https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/background/saber1.jpg";
   const emailContent = sendTemplate({
     siteName: process.env.SITE_NAME,
     siteUrl: process.env.SITE_URL,
